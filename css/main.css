@@ -1,0 +1,224 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+/* ---------------- =General ---------------- */
+
+html {
+  box-sizing: border-box;
+
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+/* ---------------- =Masthead ---------------- */
+/* ---------------- font-family: Georgia, serif ---------------- */
+
+body {
+  font-family: "Dancing Script", cursive;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5dc;
+}
+
+.flex {
+  display: block;
+  width: 100%;
+}
+
+/* ---------------- =Typography ---------------- */
+
+/* ---------------- Colors
+/* ----------------
+AntiquwBronze #f5f5dc
+BluePine #324851
+NewGrass #86AC41
+Reflection #34675C
+Mist #7DA3A1
+DinoGreen #556b2f
+Light #333
+ ---------------- */
+
+.section-mist {
+  background-color: #7da3a1;
+  font-family: "Gravitas One", cursive;
+}
+
+.section-pine {
+  font-family: Georgia, serif;
+  background-color: #324851;
+}
+
+.masthead {
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+}
+
+.banner {
+  /* IMPORTANT This is the overlapping text I want!!! */
+  position: relative;
+  text-align: center;
+}
+
+.banner-slidder {
+  padding-top: 16.25%;
+  background: #324851;
+  color: #f5f5dc;
+  background-size: cover;
+}
+
+.intro-wrap {
+  background-color: pink;
+  color: #fff;
+  width: 100%;
+}
+
+.intro {
+  max-width: 25em;
+  margin: 0 auto;
+}
+
+.lines {
+  text-align: center;
+}
+
+.line4 {
+  font-family: "Gravitas One", cursive;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .bottom li {
+    display: inline-block;
+  }
+
+  .intro-wrap {
+    bottom: 0.05rem;
+    position: absolute;
+    background-color: transparent;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  .banner-slidder {
+    padding-top: 16.25%;
+    background: #f5f5dc;
+    color: #324851;
+    background-size: cover;
+  }
+
+  .intro-wrap {
+    bottom: 3.05rem;
+  }
+
+  .footer {
+    text-align: left;
+  }
+
+  .bottom-footer {
+    text-align: right;
+  }
+
+  .line1 {
+    text-align: left;
+    max-height: 1rem;
+  }
+
+  .line2 {
+    text-align: center;
+    max-height: 1rem;
+  }
+
+  .line3 {
+    text-align: right;
+    max-height: 1rem;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  .banner-slidder {
+    padding-top: 9.25%;
+    background: #f5f5dc;
+    color: #324851;
+    background-size: cover;
+  }
+
+  .intro-wrap {
+    bottom: 3.05rem;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .bottom-footer {
+    text-align: center;
+  }
+
+  .line1 {
+    text-align: center;
+    max-height: 1rem;
+  }
+
+  .line2 {
+    text-align: center;
+    max-height: 1rem;
+  }
+
+  .line3 {
+    text-align: center;
+    max-height: 1rem;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .banner-slidder {
+    padding-top: 6.25%;
+    background: #f5f5dc;
+    color: #324851;
+    background-size: cover;
+  }
+
+  .intro-wrap {
+    bottom: 3.05rem;
+  }
+
+  .footer {
+    text-align: left;
+  }
+
+  .bottom-footer {
+    text-align: right;
+  }
+
+  .line1 {
+    text-align: center;
+    max-height: 1rem;
+  }
+
+  .line2 {
+    text-align: center;
+    max-height: 1rem;
+  }
+
+  .line3 {
+    text-align: center;
+    max-height: 1rem;
+  }
+
+}
